@@ -1,7 +1,10 @@
 'use strict';
 
+const documentUrlPatterns = ['https://instagram.com/*', 'https://www.instagram.com/*'];
+
 chrome.contextMenus.create({
-    'title': 'Open media in new tab',
+    'title': 'Open in new tab',
+    'documentUrlPatterns': documentUrlPatterns,
     'contexts': ['page', 'link'],
     'onclick': onClick
 });
