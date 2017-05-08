@@ -1,6 +1,6 @@
 # InstaSee 
 
-<p align="center"><a href="https://instasee.me" target="_blank"><img width="100"src="https://instasee.me/img/logo.png"></a></p>
+<p align="center"><a href="https://instasee.me" target="_blank"><img width="400"src="https://instasee.me/img/logo.png"></a></p>
 
 
 ## What is InstaSee?
