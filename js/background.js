@@ -14,9 +14,15 @@ function onClick(event) {
         if (tabs.length && tabs[0]) {
             const currentTabId = tabs[0]['id'];
             chrome.tabs.sendMessage(currentTabId, 'processMediaUnderMouse', (response) => {
-                const mediaUrl = String(response.mediaUrl);
+                const mediaUrl = orig(String(response.mediaUrl));
                 mediaUrl.length && chrome.tabs.create({ 'url': mediaUrl });
             });
         }
     });
+}
+
+function orig(src)
+{
+	return src.substring(0,src.indexOf('/', 8)+1) + 'x' + src.substring(src.lastIndexOf('/'));
+
 }
