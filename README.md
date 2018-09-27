@@ -1,8 +1,7 @@
-<p align="center"><a href="https://instasee.me" target="_blank"><img width="400"src="https://instasee.me/img/logo.png"></a></p>
 
 # InstaSee 
 
-Get it from <a href="https://instasee.me">https://instasee.me</a>
+The extension website instasee.me no longer exists... The repo is here just to download and install it 
 
 ## What is InstaSee?
 InstaSee is small Google Chrome plugin that lets you open in new tab images and videos from Instagram by right clicking on them and select "open in new tab" from the right-click menu. Simple as that! The images ( or videos ) will open in bigger size and better resolution. You can view or save them as regular images.
